@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas Fáceis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="receitas.html">Receitas</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+    <div class="configuracoes">
+      <!-- Botões para mudar a fonte, o tamanho da fonte e o tema -->
+      <button id="fontButton">Alterar Fonte</button>
+      <button id="sizeButton">Aumentar Fonte</button>
+      <button id="themeButton">Alterar Tema</button>
+    </div>
+  </header>
+ 
+  <main>
+    <h1>Bem-vindo ao Ana receitas!</h1>
+    <section class="receitas">
+      <h2>Receitas Populares</h2>
+      <article>
+        <h3><a href="https://www.tudogostoso.com.br/receita/62547-a-melhor-receita-de-bolo-de-chocolate.html">Bolo de Chocolate</a></h3>
+        <p>Um delicioso bolo de chocolate para todos os momentos.</p>
+      </article>
+      <article>
+        <h3><a href="https://www.tudogostoso.com.br/receita/1624-macarrao-a-carbonara.html">Macarrão à Carbonara</a></h3>
+        <p>Receita simples e saborosa de macarrão à carbonara.</p>
+      </article>
+    </section>
+  </main>
+ 
+  <footer>
+    <p>Site feito com carinho por Ana vitoria.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
