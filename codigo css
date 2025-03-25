@@ -1,0 +1,113 @@
+/* Definindo variáveis para tema claro e escuro */
+:root {
+  --fundo-claro: #fafafa;
+  --fundo-escuro: #333;
+  --texto-claro: #333;
+  --texto-escuro: #fff;
+  --cor-destaque: #007BFF;
+  --fonte-padrao: Arial, sans-serif;
+  --fonte-secundaria: 'Courier New', Courier, monospace;
+  --fonte-terciaria: 'Times New Roman', Times, serif;
+  --tamanho-padrao: 16px;
+}
+
+body {
+  font-family: var(--fonte-padrao);
+  background-color: var(--fundo-claro);
+  color: var(--texto-claro);
+  line-height: 1.6;
+  font-size: var(--tamanho-padrao);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--fundo-escuro);
+  color: var(--texto-escuro);
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: var(--texto-escuro);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-size: 1.5rem;
+}
+
+h3 a {
+  color: var(--cor-destaque);
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--fundo-escuro);
+  color: var(--texto-escuro);
+}
+
+/* Botões de configuração */
+button {
+  background-color: var(--cor-destaque);
+  color: var(--texto-escuro);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para fontes */
+body.fonte-secundaria {
+  font-family: var(--fonte-secundaria);
+}
+
+body.fonte-terciaria {
+  font-family: var(--fonte-terciaria);
+}
+
+/* Modo escuro */
+body.modo-escuro {
+  background-color: var(--fundo-escuro);
+  color: var(--texto-escuro);
+}
+
+/* Aumentar o tamanho da fonte */
+body.aumentar-fonte {
+  font-size: 1.2rem;
+}
+
+button:focus {
+  outline: 3px solid #ff9900;
+}
+
+/* Imagens devem ser responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
